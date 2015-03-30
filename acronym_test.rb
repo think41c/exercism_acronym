@@ -9,12 +9,10 @@ class AcronymTest < Minitest::Test
   end
 
   def test_ruby_on_rails
-    skip
     assert_equal 'ROR', Acronym.abbreviate('Ruby on Rails')
   end
 
   def test_html
-    skip
     assert_equal 'HTML', Acronym.abbreviate('HyperText Markup Language')
   end
 
