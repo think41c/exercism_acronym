@@ -17,17 +17,14 @@ class AcronymTest < Minitest::Test
   end
 
   def test_fifo
-    skip
     assert_equal 'FIFO', Acronym.abbreviate('First In, First Out')
   end
 
   def test_php
-    skip
     assert_equal 'PHP', Acronym.abbreviate('PHP: Hypertext Preprocessor')
   end
 
   def test_cmos
-    skip
     assert_equal 'CMOS', Acronym.abbreviate('Complementary metal-oxide semiconductor')
   end
 end
