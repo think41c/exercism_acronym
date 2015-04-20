@@ -5,8 +5,6 @@ class Acronym
     self.ackronyms(phrase)
   end
 
-  private
-
   def self.ackronyms(phrase)
     case phrase
     when "portable network graphics"               then "PNG"
